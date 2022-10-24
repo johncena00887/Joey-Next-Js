@@ -4,14 +4,14 @@ import About from '../components/About'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
 import Skills from '../components/Skills'
-import SkillsCards from '../components/SkillsCards'
+import SkillsCards from '../components/SkillsCard'
 
 
 const Home = () => {
   return (
     <div className='bg-black text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/10 scrollbar-thumb-indigo-700'>
       <Head>
-        <title>Hello</title>
+        <title>Joey Wehbe/Portfolio</title>
       </Head>
 
       <Header />

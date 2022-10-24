@@ -1,6 +1,5 @@
 {
   "name": "my-project",
-  "homepage": "https://github.com/johncena00887/joey-next-js-8.git",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,7 +7,6 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
-    
   },
   "dependencies": {
     "framer-motion": "^7.6.1",

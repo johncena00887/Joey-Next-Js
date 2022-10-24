@@ -1,6 +1,9 @@
 import React from 'react'
 import {animate, motion} from 'framer-motion'
-import SkillsCards from './SkillsCards'
+import SkillsCards from './SkillsCard'
+import SkillsCard from './SkillsCard'
+import SkillsCard2 from './SkillsCard2'
+import SkillsCard3 from './SkillsCard3'
 
 type Props = {}
 
@@ -24,13 +27,15 @@ const Skills = (props: Props) => {
 
 
   <div className='flex space-x-4 overflow-x-scroll p-20 snap-x snap-mandatory scrollbar scrollbar-track-gray-500/10 scrollbar-thumb-indigo-600'>
-  <SkillsCards />
-  <SkillsCards />
-  <SkillsCards />
- 
- 
+  <SkillsCard />
+  <SkillsCard2 />
+  <SkillsCard3 />
 
-</div>
+
+
+
+  </div>
+
  
 </motion.div>
 

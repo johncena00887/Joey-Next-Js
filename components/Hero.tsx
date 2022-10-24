@@ -17,9 +17,8 @@ function Hero({}:Props) {
         <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
           <BackgroundCircles />
        
-          <image className='relative rounded-full h-32 w-32 mx-auto object-cover' href='https://i1.sndcdn.com/avatars-so6QwChqpPETtfXm-36IUkg-t500x500.jpg'>
+          <img className='relative rounded-full h-32 w-32 mx-auto object-cover' src='https://i1.sndcdn.com/avatars-so6QwChqpPETtfXm-36IUkg-t500x500.jpg'/>
             
-          </image>
           
 
 
