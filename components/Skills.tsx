@@ -23,7 +23,7 @@ const Skills = (props: Props) => {
   <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>Skills</h3>
 
 
-  <div className='flex space-x-4 overflow-x-scroll p-20 snap-x snap-mandatory'>
+  <div className='flex space-x-4 overflow-x-scroll p-20 snap-x snap-mandatory scrollbar scrollbar-track-gray-500/10 scrollbar-thumb-indigo-600'>
   <SkillsCards />
   <SkillsCards />
   <SkillsCards />

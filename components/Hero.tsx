@@ -23,27 +23,29 @@ function Hero({}:Props) {
 
 
           <div className='z-20'>
-            <h2 className='text-sm uppercase text-white-500 pb-2 tracking-[15px] z-1'>Web Developer</h2>
+          <h2 className='text-sm uppercase text-white-500 pb-2 tracking-[15px] z-1'>Web Developer</h2>
           <h1 className='text-5xl lg:text-6xl font-semibold px-10'>
           <span className='mr-3'>{text}</span>
           <Cursor cursorColor='purple' />
           </h1>
+
+
+
           <div className='pt-5'>
-          
           <Link href="#about">
-            <button className='heroButton'>About</button>
+            <button className='heroButton border-none'>About</button>
           </Link>
             
            
 
           <Link href="#skills">
-            <button className='heroButton'>Skills</button>
+            <button className='heroButton border-none'>Skills</button>
           </Link>
             
            
 
             <Link href="#projects">
-            <button className='heroButton'>Projects</button>
+            <button className='heroButton border-none'>Projects</button>
             </Link>
             
 

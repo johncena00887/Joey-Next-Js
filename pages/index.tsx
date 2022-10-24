@@ -9,7 +9,7 @@ import SkillsCards from '../components/SkillsCards'
 
 const Home = () => {
   return (
-    <div className='bg-black text-white h-screen snap-y snap-mandatory overflow-scroll z-0'>
+    <div className='bg-black text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/10 scrollbar-thumb-indigo-700'>
       <Head>
         <title>Hello</title>
       </Head>
