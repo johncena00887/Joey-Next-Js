@@ -7,13 +7,13 @@ type Props = {}
 const About = (props: Props) => {
     const [text] = useTypewriter({
         words: ['Background Story'],
-        loop:false,
+        loop:true,
         
     })
     
   return (
-  <div className='flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px10 justify-evenly mx-auto items-center '> 
-  <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>About</h3>
+  <div className='h-screen flex relative overflow-hidden flex-col text-lft md:flex-row max-w-full px-10 justify-evenly mx-auto items-center'> 
+  <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl text-center'>About</h3>
  
  <motion.img className='-mb-36 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-54 md:h-54 xl:w-[400px] xl:h-[400px] '
  initial={{
@@ -33,14 +33,14 @@ src='https://i1.sndcdn.com/avatars-so6QwChqpPETtfXm-36IUkg-t500x500.jpg'>
 
 
 <div className='space-y-10 px-0 md:px-10'>
-<h1 className='text-3xl lg:text-6xl font-semibold px-10'>
+<h1 className='text-2xl md:text-3xl lg:text-6xl font-semibold px-20 text-center'>
           <span className='mr-3'>{text}</span>
           <Cursor cursorColor='purple' />
           </h1>
     
 
 
-    <p className='text-sm'>survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    <p className='text-sm'>survived not only five centuries, but also fuck you bitch horny little fuck the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 
 
 

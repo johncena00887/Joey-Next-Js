@@ -11,11 +11,9 @@ const SkillsCard2 = (props: Props) => {
     <img  className='h-33 w-32 my-20 ' src="https://seeklogo.com/images/N/next-js-logo-7929BCD36F-seeklogo.com.png" />
 
     <div className="flex justify-between mb-1">
-  <span className="text-sm font-medium text-blue-700 dark:text-white ">60%</span>
+  <span className="text-sm font-medium text-blue-700 dark:text-white ">Next.JS</span>
 </div>
-<div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-  <div className="bg-blue-600 h-2.5 rounded-full w-[250px]"></div>
-</div>
+
 
 
 </article>

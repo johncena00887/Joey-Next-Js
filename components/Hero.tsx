@@ -25,7 +25,7 @@ function Hero({}:Props) {
 
           <div className='z-20'>
           <h2 className='text-sm uppercase text-white-500 pb-2 tracking-[15px] z-1'>Web Developer</h2>
-          <h1 className='text-5xl lg:text-6xl font-semibold px-10'>
+          <h1 className='text-2xl md:text-3xl lg:text-6xl font-semibold px-20 text-center'>
           <span className='mr-3'>{text}</span>
           <Cursor cursorColor='purple' />
           </h1>
