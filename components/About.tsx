@@ -19,11 +19,8 @@ const About = (props: Props) => {
           <span className='mr-1'>{text}</span>
           <Cursor cursorColor='purple' />
           </h1>
-         <div>
-        <p className='text-lg'>Im a self learned UI Designer and Front-End / Smart Contract Developer from Lebanon, Beirut. Years of experiences in HTML, React, Next.js, CSS, Javascript, Typescript. Dedicated effort with full-time - Always can work in your time zone. - Comply with the deadline. Perfect satisfaction with your project. - Best result with high quality and high speed</p>
-
-        </div>   
-     </div>
+ <p className='text-sm text-left xl:text-2xl p-0 xl:p-20 lg:p-20 lg:text-2xl md:p-20 md:text-1xl'>Im a self learned UI Designer and Front-End / Smart Contract Developer from Lebanon, Beirut. Years of experiences in HTML, React, Next.js, CSS, Javascript, Typescript. Dedicated effort with full-time - Always can work in your time zone. - Comply with the deadline. Perfect satisfaction with your project. - Best result with high quality and high speed</p>
+ </div>
 </div>
   )
 }
