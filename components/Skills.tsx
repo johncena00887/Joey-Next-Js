@@ -22,11 +22,11 @@ const Skills = (props: Props) => {
   transition={{
   duration:1.2,
    }}
-  className='h-screen flex relative overflow-hidden flex-col text-lft md:flex-row max-w-full px-10 justify-evenly mx-auto items-center text-center' >
-  <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-1xl lg:text-2xl md:text-2xl xl:text-2xl text-center'>Skills</h3>
+  className=' min-h-screen p-20 flex items-center overflow-hidden flex-col space-y-[-100px]' >
+  <h3 className='text-center uppercase text-gray-500 tracking-[15px] z-1'>Skills</h3>
 
 
-  <div className='w-full overflow-y-hidden flex space-x-4 overflow-x-scroll p-20 snap-x snap-mandatory scrollbar scrollbar-track-gray-500/10 scrollbar-thumb-indigo-600 '>
+  <div className='w-screen overflow-y-hidden flex space-x-4 overflow-x-scroll p-20 snap-x snap-mandatory scrollbar scrollbar-track-gray-500/10 scrollbar-thumb-indigo-600 '>
   <SkillsCard />
   <SkillsCard2 />
   <SkillsCard3 />

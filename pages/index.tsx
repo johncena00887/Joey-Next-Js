@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div className='bg-black text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/10 scrollbar-thumb-indigo-700'>
       <Head>
-        <title>Joey Wehbe/Portfolio</title>
+        <title>Joey Wehbe X Portfolio</title>
       </Head>
 
       <Header />
@@ -39,7 +39,7 @@ const Home = () => {
 
       {/*Skills*/}
 
-      <section id='skills' className='snap-center'>
+      <section id='skills' className='snap-start'>
       <Skills />
       </section>
 
