@@ -30,7 +30,7 @@ function Header({}: Props) {
     /*social icons*/
     className='flex flex-row items-center'>
     <SocialIcon url="https://www.instagram.com/joeywehbe_" fgColor='grey' bgColor='transparent'/>
-    <SocialIcon url="https://www.facebook.com/joeywehbe_" fgColor='grey' bgColor='transparent'/>
+    <SocialIcon url="https://www.facebook.com/wehbejoey" fgColor='grey' bgColor='transparent'/>
     <SocialIcon url="https://www.twitter.com/joeywehbe_" fgColor='grey' bgColor='transparent'/>
 </motion.div>
 
