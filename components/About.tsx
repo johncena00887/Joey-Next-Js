@@ -12,7 +12,7 @@ const About = (props: Props) => {
     })
     
   return (
-  <div className='h-screen flex relative overflow-hidden flex-col text-lft md:flex-row max-w-full px-10 justify-evenly mx-auto items-center'> 
+  <div className='h-screen flex relative overflow-hidden flex-col text-lft md:flex-row max-w-full px-10 justify-evenly mx-auto text-center items-center'> 
   <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-1xl lg:text-2xl md:text-2xl xl:text-2xl text-center'>About</h3>
  
  <motion.img className='-mb-32 md:mb-0 rounded-full h-[130px] w-[130px] md:rounded-lg md:w-54 md:h-54 xl:w-[400px] xl:h-[400px] items-center '
